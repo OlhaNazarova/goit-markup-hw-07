@@ -1,4 +1,4 @@
-/* -----------змінні----- */
+/* -------y----змінні----- */
 
 :root { 
     --accent-color: #2196F3;
@@ -10,7 +10,7 @@
     --fill-color: #188CE8;
     --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
-      /* -------- */
+      /* -----y--- */
 h1,
 h2,
 h3,
@@ -48,13 +48,13 @@ body {font-family: 'Roboto', sans-serif;
 text-decoration: none;
 }
 
-/* ---------------- */
+/* -----------y----- */
 
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-/* ----------------- */
+/* ---------y-------- */
 .visually-hidden {
     position: absolute;
       white-space: nowrap;
@@ -70,7 +70,7 @@ text-decoration: none;
 
 
 /* =======================================HEADER */
-/* ----------- */
+/* ------y----- */
 .container {
     width: 1200px;
     margin-left: auto;
@@ -218,7 +218,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--whitey-color);
 }
-
+/* -----------y-------------- */
 .modal-btn{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -258,7 +258,7 @@ background-color: #188CE8;
     background-color: var(--accent-color);
     color: var(--whitey-color);
 }
-
+/* ------------------ */
 .menu-item:not(:last-child) {
 margin-right: 50px;
 }
