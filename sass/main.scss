@@ -6,10 +6,15 @@
 @import'./base/container';
 
 @import'./components/modal-btn';
-@import'./utils/header';
-@import'./utils/hero';
-@import'./utils/description';
-@import'./utils/about';
-@import'./utils/team';
-@import'./utils/clients';
-@import'./utils/footer';
+
+
+@import'./layout/header';
+@import'./layout/hero';
+@import'./layout/description';
+@import'./layout/about';
+@import'./layout/team';
+@import'./layout/clients';
+@import'./layout/footer/footer;
+
+
+
