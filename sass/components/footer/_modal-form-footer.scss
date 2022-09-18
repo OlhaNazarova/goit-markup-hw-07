@@ -1,0 +1,35 @@
+.modal-form-footer-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--whitey-color);
+    margin-bottom: 20px;
+    }
+    
+    
+    .contact-form-input-footer{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    background-color: transparent;
+    width: 358px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 12px;
+    color: var(--whitey-color);
+    }
+    .contact-form-input-footer::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-wrapper-icon{
+        display: flex;
+        align-items: center;
+        
+    }
+    .footer-form-icon{
+        margin-left: 10px;
+    }
