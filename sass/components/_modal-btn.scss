@@ -17,15 +17,15 @@ margin-right: auto;
 margin-left: auto;
 display: block;
 transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
-
-}
-.modal-btn:hover{
+&:hover{
     background-color: var(--accent-color);
 }
-.modal-btn:focus {
+&:focus {
 background-color: #188CE8;
 
 }
+}
+
 
 
 .modal-btn.current {

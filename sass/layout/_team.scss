@@ -49,9 +49,6 @@ margin-bottom: 16px;
     background-color: var(--whitey-color)
 }
 
-.foto-team:not(:last-child) {
-    margin-right: 30px;
-}
 
 .social-list {
     display: flex;
@@ -68,13 +65,14 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: var(--whitey-color)
-}
-.social-list-link:hover,
-.social-list-link:focus {
+    background-color: var(--whitey-color);
+    &:hover,
+&:focus {
     color: var(--whitey-color);
     border-color: var(--accent-color);
 }
+}
+
 
 .team-list-icon{
     display: flex;
@@ -88,11 +86,12 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
     transition: background-color var(--transition-dur-and-func);
-}
-.team-link:hover,
-.team-link:focus {
+    &:hover,
+&:focus {
 background-color: #2196F3;
 }
+}
+
 
 .svg-team {
     fill: #AFB1B8;

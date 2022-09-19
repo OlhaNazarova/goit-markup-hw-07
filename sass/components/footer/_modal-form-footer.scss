@@ -18,13 +18,14 @@
     padding-top: 15px;
     padding-bottom: 15px;
     margin-right: 12px;
-    color: var(--whitey-color);
+    color: var(--whitey-color)
+    &::placeholder{
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+        }
     }
-    .contact-form-input-footer::placeholder{
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
-    }
+   
     .footer-wrapper-icon{
         display: flex;
         align-items: center;

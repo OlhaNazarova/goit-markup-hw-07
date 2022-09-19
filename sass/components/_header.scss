@@ -45,11 +45,12 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 transition: color var(--transition-dur-and-func);
 position: relative;
-}
-.menu-link:hover,
-.menu-link:focus {
+&:hover,
+&:focus {
 color: var(--accent-color);
 }
+}
+
 .menu-link.current {
     color: var(--accent-color);}
 
@@ -74,11 +75,12 @@ color: var(--mail-color);
 display: flex; 
 align-items: center;
 transition: color var(--transition-dur-and-func);
-}
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+&:hover,
+&:focus {
 color: var(--accent-color);
 }
+}
+
 
 
 .contact-icon{

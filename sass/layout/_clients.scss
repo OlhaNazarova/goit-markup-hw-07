@@ -23,12 +23,6 @@
     gap: 30px;
 }
 
-.social-list-clients:hover,
-.social-list-clients:focus{
-    color: var(--fill-color);
-    border: 1px solid #188CE8;
-border-radius: 4px;}
-
     .svg-clients{
         fill: currentColor;
         
@@ -45,4 +39,9 @@ border-radius: 4px;}
     height: 94px;
     color: #AFB1B8;
     transition: color var(--transition-dur-and-func), border var(--transition-dur-and-func);
+    &:hover,
+&:focus{
+    color: var(--fill-color);
+    border: 1px solid #188CE8;
+border-radius: 4px;}
 }
