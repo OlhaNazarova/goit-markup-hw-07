@@ -1,4 +1,4 @@
-.section-title {
+.work__section-title {
     margin-bottom: 50px;
 font-weight: 700;
 font-size: 36px;
@@ -13,18 +13,18 @@ color: var(--text-color);
     
 }
 
-.foto-list {
+.work__list {
     display: flex;
 }
 
-.work-review:not(:last-child) {
+.work__review:not(:last-child) {
     margin-right: 30px;
 }
 
-.about-overlay{
+.work__overlay{
 position: relative;
 }
-.about-overlay-text{
+.work__overlay-text{
 position: absolute;
 width: 100%;
 height: 70px;

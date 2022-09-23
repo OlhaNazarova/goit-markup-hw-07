@@ -2,24 +2,24 @@
     background: var(--background-color);
     }
     
-    .color-back {
+    .footer__color-back {
         background: var(--background-color);
         padding-top: 60px;
         padding-bottom: 60px;
         
     }
-    .color-back .container{
+    .footer__color-back .container{
         display: flex;
         align-items: baseline;
         justify-content: space-between;
     }
     
-    .footer-wrapper-adress{
+    .footer__wrapper-adress{
         flex-direction: column;
     }
     
     
-    .adress {
+    .footer__adress {
         margin-top: 20px;
     font-style: normal;
     font-weight: 400;
@@ -28,16 +28,10 @@
     color: var(--whitey-color);
     }
     
-    .account {
+    .footer__account {
        margin-bottom: 9px;
     }
     
-    .contact-link {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    }
+   
 
    

@@ -1,11 +1,11 @@
-.section-emdlem{
+.customers__section{
     padding: 94px 0;
     padding-top: 94px;
     padding-right: 0px;
     padding-bottom: 94px;
     padding-left: 0px;
 }
-.regular-clients{
+.customers{
     margin-bottom: 50px;
     font-family: 'Roboto';
     font-style: normal;
@@ -16,20 +16,18 @@
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
-.company-emdlem{
+.customers__emblem{
     padding: 94 0;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-    .svg-clients{
-        fill: currentColor;
-        
+.customers__svg{
+    fill: currentColor;
+            }
 
-    }
-
-.social-list-clients{
+.customers__social-list{
     display: flex;
     justify-content: center;
     align-items: center;
