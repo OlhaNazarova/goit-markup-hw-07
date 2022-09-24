@@ -19,7 +19,7 @@
     height: 581px;
     background-color: #ffffff;
 }
-   .modal-close-btn{
+   .modal__close-btn{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -32,8 +32,8 @@
     height: 30px;
     border-radius: 50%;
     padding: 0;
-    &:hover .modal-close-icon,
-   &:focus .modal-close-icon
+    &:hover .modal__close-icon,
+   &:focus .modal__close-icon
    {
     fill: var(--accent-color);
     }

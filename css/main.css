@@ -136,7 +136,7 @@ button {
   flex-direction: column;
 }
 
-.conected {
+.connection__name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -147,14 +147,14 @@ button {
   text-transform: uppercase;
 }
 
-.black-list {
+.connection__list {
   margin-top: 20px;
   gap: 10px;
   display: flex;
   justify-content: center;
 }
 
-.social-list-dark {
+.connection__list-dark {
   height: 44px;
   width: 44px;
   display: flex;
@@ -164,15 +164,15 @@ button {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--transition-dur-and-func);
 }
-.social-list-dark:hover, .social-list-dark:focus {
+.connection__list-dark:hover, .connection__list-dark:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.connection__icon {
   fill: var(--whitey-color);
 }
 
-.modal-form-footer-title {
+.modal-form__footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -181,7 +181,7 @@ button {
   margin-bottom: 20px;
 }
 
-.contact-form-input-footer {
+.modal-form__input-footer {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -193,18 +193,32 @@ button {
   margin-right: 12px;
   color: var(--whitey-color);
 }
-.contact-form-input-footer::placeholder {
+.modal-form__input-footer::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-wrapper-icon {
+.modal-form__footer-btn {
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.0015);
+  border-radius: 4px;
+  padding: 10px 28px 10px 28px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.modal-form__wrapper-icon {
   display: flex;
   align-items: center;
 }
 
-.footer-form-icon {
+.modal-form__icon {
   margin-left: 10px;
 }
 
@@ -212,7 +226,7 @@ button {
   padding: 40px;
 }
 
-.modal-form-title {
+.modal-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -221,7 +235,7 @@ button {
   margin-bottom: 12px;
 }
 
-.modal-form-label {
+.modal-form__label {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -232,7 +246,7 @@ button {
   margin-bottom: 20px;
 }
 
-.modal-form-text {
+.modal-form__text {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -240,7 +254,7 @@ button {
   display: block;
 }
 
-.contact-form-input {
+.modal-form__input {
   margin-top: 4px;
   height: 40px;
   margin-top: 4px;
@@ -293,32 +307,18 @@ button {
   display: block;
 }
 
-.footer-form-btn {
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.0015);
-  border-radius: 4px;
-  padding: 10px 28px 10px 28px;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-}
-
-.modal-icon {
+.modal-form__icon {
   top: 50%;
   left: 12px;
   position: absolute;
   transition: fill var(--transition-dur-and-func);
 }
 
-.modal-form-label:focus-within .modal-icon {
+.modal-form__label:focus-within .modal-icon {
   fill: var(--accent-color);
 }
 
-.modal-form-label:focus-within .contact-form-input {
+.modal-form__label:focus-within .modal-form__input {
   border: 1px solid var(--accent-color);
   outline: none;
 }
@@ -341,7 +341,7 @@ button {
   position: absolute;
 }
 
-.modal-form-checkbox {
+.modal-form__checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -458,7 +458,7 @@ button {
   background-color: #ffffff;
 }
 
-.modal-close-btn {
+.modal__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -472,7 +472,7 @@ button {
   border-radius: 50%;
   padding: 0;
 }
-.modal-close-btn:hover .modal-close-icon, .modal-close-btn:focus .modal-close-icon {
+.modal__close-btn:hover .modal__close-icon, .modal__close-btn:focus .modal__close-icon {
   fill: var(--accent-color);
 }
 

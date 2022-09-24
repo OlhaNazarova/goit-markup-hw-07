@@ -1,7 +1,7 @@
 .connection{
     flex-direction: column;
 }
-.conected{
+.connection__name{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -11,14 +11,14 @@
     color: var(--whitey-color);
     text-transform: uppercase;
 }
-.black-list{
+.connection__list{
     margin-top: 20px;
     gap: 10px;
     display: flex;
     justify-content: center;
 }
 
-.social-list-dark{
+.connection__list-dark{
    
     height: 44px;
     width: 44px;
@@ -34,6 +34,6 @@
 }
 }
 
-.social-icon{
+.connection__icon{
     fill: var(--whitey-color);
 }
