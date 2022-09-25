@@ -62,7 +62,7 @@ button {
   text-decoration: none;
 }
 
-.modal-btn {
+.hero__modal-btn {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
@@ -82,10 +82,10 @@ button {
   display: block;
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
 }
-.modal-btn:hover {
+.hero__modal-btn:hover {
   background-color: var(--accent-color);
 }
-.modal-btn:focus {
+.hero__modal-btn:focus {
   background-color: #188CE8;
 }
 
@@ -323,18 +323,18 @@ button {
   outline: none;
 }
 
-.icon-checkbox {
+.modal-form__icon-checkbox {
   border: 1px solid #000000;
   border-radius: 2px;
   margin-right: 7px;
 }
 
-.input-checkbox:checked + .icon-checkbox {
+.modal-form__input-checkbox:checked + .modal-form__icon-checkbox {
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
 
-.input-checkbox {
+.modal-form__input-checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -348,11 +348,11 @@ button {
   margin-bottom: 30px;
 }
 
-.input-checkbox:focus + .icon-checkbox {
+.modal-form__input-checkbox:focus + .modal-form__icon-checkbox {
   box-shadow: 0 0 0 2px rgba(0, 0, 250, 0.5);
 }
 
-.navigation {
+.page-header__navigation {
   display: flex;
   align-items: center;
 }
@@ -388,7 +388,7 @@ button {
   margin-right: 93px;
 }
 
-.menu-link {
+.menu__link {
   padding: 32px 0;
   display: block;
   font-style: normal;
@@ -400,11 +400,11 @@ button {
   transition: color var(--transition-dur-and-func);
   position: relative;
 }
-.menu-link:hover, .menu-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.menu-link.current {
+.menu__link.current {
   color: var(--accent-color);
 }
 
@@ -419,7 +419,7 @@ button {
   bottom: 0;
 }
 
-.contact-phone-number {
+.menu-contact__list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -429,11 +429,11 @@ button {
   align-items: center;
   transition: color var(--transition-dur-and-func);
 }
-.contact-phone-number:hover, .contact-phone-number:focus {
+.menu-contact__list:hover, .menu-contact__list:focus {
   color: var(--accent-color);
 }
 
-.contact-icon {
+.menu-contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -653,7 +653,7 @@ button {
   max-width: 1600px;
 }
 
-.main-title {
+.hero__main-title {
   margin-bottom: 30px;
   width: 696px;
   margin-left: auto;
@@ -871,7 +871,7 @@ button {
   border-radius: 4px;
 }
 
-.portfolio-list {
+.portfolio-about-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -879,7 +879,7 @@ button {
   margin-top: -30px;
 }
 
-.portfolio-item {
+.portfolio-about-list__item {
   flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
   margin-top: 30px;
@@ -889,7 +889,7 @@ button {
   border-bottom: #ececec 1px solid;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -926,7 +926,7 @@ button {
   padding: 94px 0;
 }
 
-.btn-knob {
+.work-portfolio__list {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -960,8 +960,8 @@ button {
   transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
 
-.port:hover,
-.port:focus {
+.work-portfolio__port:hover,
+.work-portfolio__port:focus {
   color: var(--whitey-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -973,23 +973,23 @@ button {
   gap: 30px;
 }
 
-.bbtn {
+.work-portfolio__bbtn {
   color: var(--whitey-color);
   background-color: var(--accent-color);
   border-color: transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-link {
+.portfolio-about-list__link {
   display: block;
   transition: box-shadow var(--transition-dur-and-func);
 }
-.portfolio-link:hover, .portfolio-link:focus {
+.portfolio-about-list__link:hover, .portfolio-about-list__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-link:hover .overlay,
-.portfolio-link:focus .overlay {
+.portfolio-about-list__link:hover .overlay,
+.portfolio-about-list__link:focus .overlay {
   transform: translateY(0%);
 }
 
