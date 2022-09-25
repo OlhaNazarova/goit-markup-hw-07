@@ -118,11 +118,11 @@ transition: color var(--transition-dur-and-func), background-color var(--transit
 }
 }
 
-.portfolio-about-list__link:hover .overlay,
-.portfolio-about-list__link:focus .overlay{
+.portfolio-about-list__link:hover .list-img-wrapper__overlay,
+.portfolio-about-list__link:focus .list-img-wrapper__overlay{
 transform: translateY(0%);
 }
-.overlay {
+.list-img-wrapper__overlay {
     position: absolute;
     top: 0;
     left: 0;

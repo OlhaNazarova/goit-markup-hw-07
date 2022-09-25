@@ -89,7 +89,7 @@ display: block;
     position: absolute;
     transition: fill var(--transition-dur-and-func);
 }
-.modal-form__label:focus-within .modal-icon{
+.modal-form__label:focus-within .modal-form__icon{
     fill: var(--accent-color);
 }
 .modal-form__label:focus-within .modal-form__input{

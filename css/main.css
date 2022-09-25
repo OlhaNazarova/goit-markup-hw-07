@@ -314,7 +314,7 @@ button {
   transition: fill var(--transition-dur-and-func);
 }
 
-.modal-form__label:focus-within .modal-icon {
+.modal-form__label:focus-within .modal-form__icon {
   fill: var(--accent-color);
 }
 
@@ -988,12 +988,12 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-about-list__link:hover .overlay,
-.portfolio-about-list__link:focus .overlay {
+.portfolio-about-list__link:hover .list-img-wrapper__overlay,
+.portfolio-about-list__link:focus .list-img-wrapper__overlay {
   transform: translateY(0%);
 }
 
-.overlay {
+.list-img-wrapper__overlay {
   position: absolute;
   top: 0;
   left: 0;
